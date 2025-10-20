@@ -6,12 +6,17 @@ The following table list the different designs/tutorials and the tool versions t
 
 <table style="width:80%">
  <tr>
-    <td width="20%" align="center"><b>Tutorial/Design</b>
+    <td width="70%" align="center"><b>Tutorial/Design</b>
     <td width="10%" align="center"><b>Supported Version</b>
-    <td width="70%" align="center"><b>Article Link</b>
+    <td width="20%" align="center"><b>Hackster.io Article Link</b>
  </tr>
  <tr>
     <td align="center"><a href="./07_AI_Engine_Programming_Intro/">07 Introduction to AMD AI Engine Programming</a></td>
+    <td align="center">2025.1</td>
+    <td align="center"><a href="https://www.hackster.io/florent-werbrouck/07-introduction-to-amd-ai-engine-programming-9dbdd3">link</a></td>
+ </tr>
+  <tr>
+    <td align="center"><a href="./08_AI_Engine_Tools_Intro">08 Introduction to AMD AI Engine Compile/Sim Tools</a></td>
     <td align="center">2025.1</td>
     <td align="center"><a href="https://www.hackster.io/florent-werbrouck/07-introduction-to-amd-ai-engine-programming-9dbdd3">link</a></td>
  </tr>
