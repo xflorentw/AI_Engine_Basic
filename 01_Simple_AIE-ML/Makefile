@@ -3,17 +3,22 @@
 # SPDX-License-Identifier: MIT
 #
 
+WORKSPACE_DIR = workspace
 # =========================================================
 # DEVICE SELECTION
 # =========================================================
 DEVICE_NAME ?= xcve2302-sfva784-1LP-e-S
 
+# =========================================================
+# PARAMETERS
+# =========================================================
+VERSION ?=1
+
 ##############
 # Build Flow #
 ##############
 all:
-	vitis -s create_workspace.py ${DEVICE_NAME}
+	vitis -s create_workspace.py ${DEVICE_NAME} ${VERSION}
 	
 clean:
-	rm -rf $(BUILD_DIR)
 	rm -rf .Xil $(WORKSPACE_DIR) _ide
