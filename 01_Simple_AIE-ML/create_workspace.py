@@ -23,10 +23,14 @@ print ("Creating AIE-ML component from Simple template\n")
 comp = client.create_aie_component(name="aie-ml_component_simple", part = part, template = "installed_aie_examples/simple")
 comp = client.get_component(name="aie-ml_component_simple")
 
-if version == 2:
+if version >= 2:
     os.remove(app_path+"/"+workspace+"/aie-ml_component_simple/src/project.h")
     status = comp.import_files(from_loc=app_path+"/src/10/", files=["project.h"], dest_dir_in_cmp = "src")
     status = comp.import_files(from_loc=app_path+"/src/10/", files=["input_64.txt"], dest_dir_in_cmp = "data")
+
+if version == 3:
+    os.remove(app_path+"/"+workspace+"/aie-ml_component_simple/src/kernels/kernels.cc")
+    status = comp.import_files(from_loc=app_path+"/src/12/", files=["kernels.cc"], dest_dir_in_cmp = "src/kernels")
 
 
 
