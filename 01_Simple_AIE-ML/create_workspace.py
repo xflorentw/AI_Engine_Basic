@@ -32,6 +32,10 @@ if version == 3:
     os.remove(app_path+"/"+workspace+"/aie-ml_component_simple/src/kernels/kernels.cc")
     status = comp.import_files(from_loc=app_path+"/src/12/", files=["kernels.cc"], dest_dir_in_cmp = "src/kernels")
 
-
-
+if version == 4:
+    os.remove(app_path+"/"+workspace+"/aie-ml_component_simple/src/kernels/kernels.cc")
+    status = comp.import_files(from_loc=app_path+"/src/13/", files=["kernels.cc"], dest_dir_in_cmp = "src/kernels")
+    cfg = client.get_config_file(app_path+'/'+workspace+'/aie-ml_component_simple/aiecompiler.cfg')
+    cfg.add_values(section='aie', key='xlopt', values=['0'])
+    
 vitis.dispose()
