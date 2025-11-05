@@ -7,6 +7,7 @@ You can use this project to replicate the steps from the following articles:<br 
 <a href="https://www.hackster.io/florent-werbrouck/10-improving-amd-ai-engine-graph-latency-and-throughput-83ff1b">10 Improving AMD AI Engine graph latency and throughput</a><br />
 <a href="https://www.hackster.io/florent-werbrouck/11-ai-engine-kernel-code-performances-analysis-eb79ab">11 AI Engine Kernel Code performances analysis</a><br />
 <a href="https://www.hackster.io/florent-werbrouck/12-aie-ml-kernel-vectorization-7cac6e">12 AIE-ML kernel vectorization</a><br />
+<a href="https://www.hackster.io/florent-werbrouck/13-memory-alignment-in-ai-engine-5ee3c3">13 Memory alignment in AI Engine</a><br />
 
 To rebuild the initial Vitis Workspace for tutorial 07 - 08 - 09 - 10 run the following command:
 ```
@@ -21,6 +22,11 @@ make all VERSION=2
 To build the project after the kernel optimization from tutorial 12, run the following command:
 ```
 make all VERSION=3
+```
+
+To build the project for tutorial 13, run the following command:
+```
+make all VERSION=4
 ```
 
 <p class="sphinxhide" align="center"><sub>Copyright © 2025 Florent Werbrouck</sub></p>
