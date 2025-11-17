@@ -46,6 +46,9 @@ print("Adding DSP Lib to Include Directories\n")
 cfg = client.get_config_file(app_path+'/'+workspace+'/fft_1024/aiecompiler.cfg')
 cfg.add_values(key='include', values=[DSPLIB+"/L2/include/aie",DSPLIB+"/L1/include/aie", DSPLIB+"/L1/src/aie"])
 
+if version==2:
+    status = comp.import_files(from_loc=app_path+"/aie/data/", files=["input.txt"], dest_dir_in_cmp = "data")
+
 print("Building AIE-ML component\n")
 comp.build(target="hw")
     
