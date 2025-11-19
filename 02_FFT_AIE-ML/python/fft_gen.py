@@ -36,7 +36,7 @@ tone1 = A1 * np.exp( 1.j * 2.0*np.pi*F1_MHz*x)
 tone2 = A2 * np.exp( 1.j * 2.0*np.pi*F2_MHz*x)
 sig_i = tone1 + tone2;
 
-sig_i_cplx = Fxp(sig_i, dtype='S0.15')
+sig_i_cplx = Fxp(sig_i, dtype='S1.15')
 sig_i_cplx = sig_i_cplx.astype(complex)
 
 sig_i_cplx16 = sig_i_cplx*2**Input_shift
