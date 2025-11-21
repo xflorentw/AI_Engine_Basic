@@ -14,7 +14,7 @@ The following table list the different designs/tutorials and the tool versions t
     <td align="center">2025.1</td>
  </tr>
   <tr>
-    <td align="center"><a href="./02_FFT_AIE-ML-ML/">Simple FFT on AIE-ML using the DSP Library</a></td>
+    <td align="center"><a href="./02_FFT_AIE-ML/">Simple FFT on AIE-ML using the DSP Library</a></td>
     <td align="center">2025.1</td>
  </tr>
  </table>
