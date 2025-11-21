@@ -1,4 +1,4 @@
-# AI Engine Basic V0.1
+# AI Engine Basic V0.2
 
 This repository contains basic designs which are discussed on my <a href="https://www.hackster.io/florent-werbrouck">hackster.io project articles</a>.
 
@@ -11,7 +11,7 @@ The following table list the different designs/tutorials and the tool versions t
  </tr>
  <tr>
     <td align="center"><a href="./01_Simple_AIE-ML/">Simple AIE-ML Component</a></td>
-    <td align="center">2025.1</td>
+    <td align="center">2025.2</td>
  </tr>
   <tr>
     <td align="center"><a href="./02_FFT_AIE-ML/">Simple FFT on AIE-ML using the DSP Library</a></td>
