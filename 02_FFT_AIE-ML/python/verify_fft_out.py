@@ -58,8 +58,8 @@ with open(golden_fft) as f:
         python_data[i:i+3] = x[0]
         i +=4
 
-error_threshold = 1;
 error = 0
+error_threshold = 1
 
 for i in range(0, aie_data.size):
     if aie_data[i] != python_data[i]:
