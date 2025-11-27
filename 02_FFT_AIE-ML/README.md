@@ -1,4 +1,4 @@
-# DSP Lib 1024-point FFT on AIE-ML
+# AMD DSPLib 1024-point FFT on AIE-ML
 
 This project is a simple AIE-ML graph implementing a 1024-point FFT using the AMD DSP Library
 

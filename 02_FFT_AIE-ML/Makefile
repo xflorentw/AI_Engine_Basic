@@ -13,6 +13,7 @@ DEVICE_NAME ?= xcve2302-sfva784-1LP-e-S
 # PARAMETERS
 # =========================================================
 VERSION ?=1
+TARGET ?= hw
 
 ##############
 # Build Flow #
@@ -22,7 +23,7 @@ gen_input:
 	python3 fft_gen.py
 	
 vitis_workspace:
-	vitis -s create_workspace.py ${DEVICE_NAME} ${VERSION}
+	vitis -s create_workspace.py ${DEVICE_NAME} ${VERSION} ${TARGET}
 	
 verif_output:
 	cd ./python; \
@@ -39,3 +40,4 @@ endif
 	
 clean:
 	rm -rf .Xil $(WORKSPACE_DIR) _ide aie/data
+	rm -rf vfs/*/.Xil vfs/*/vfs_work vfs/*/AIECompiler.log
