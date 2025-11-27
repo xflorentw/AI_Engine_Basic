@@ -7,15 +7,15 @@ The following table list the different designs/tutorials and the tool versions t
 <table style="width:80%">
  <tr>
     <td width="80%" align="center"><b>Design</b>
-    <td width="20%" align="center"><b>Supported Version</b>
+    <td width="20%" align="center"><b>Supported Versions</b>
  </tr>
  <tr>
     <td align="center"><a href="./01_Simple_AIE-ML/">Simple AIE-ML Component</a></td>
-    <td align="center">2025.2</td>
+    <td align="center">2025.1 2025.2</td>
  </tr>
   <tr>
     <td align="center"><a href="./02_FFT_AIE-ML/">Simple FFT on AIE-ML using the DSP Library</a></td>
-    <td align="center">2025.1</td>
+    <td align="center">2025.1 2025.2</td>
  </tr>
  </table>
 
