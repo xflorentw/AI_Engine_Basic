@@ -9,6 +9,7 @@ import os
 
 part=sys.argv[1]
 version=int(sys.argv[2])
+target_build=sys.argv[3]
 workspace="workspace"
 
 #Get Vitis Version
@@ -50,6 +51,6 @@ if version==2:
     status = comp.import_files(from_loc=app_path+"/aie/data/", files=["input.txt"], dest_dir_in_cmp = "data")
 
 print("Building AIE-ML component\n")
-comp.build(target="hw")
+comp.build(target=target_build)
     
 vitis.dispose()

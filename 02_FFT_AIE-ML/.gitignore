@@ -1,2 +1,6 @@
 workspace/
 aie/data/
+vfs/*/AIECompiler.log
+vfs/python/python_path
+vfs/*/vfs_work
+vfs/python/vfs
