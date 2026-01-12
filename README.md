@@ -11,13 +11,13 @@ The following table list the different designs/tutorials and the tool versions t
  </tr>
  <tr>
     <td align="center"><a href="./01_Simple_AIE-ML/">Simple AIE-ML Component</a></td>
-    <td align="center">2025.1 2025.2</td>
+    <td align="center">2025.2</td>
  </tr>
   <tr>
     <td align="center"><a href="./02_FFT_AIE-ML/">Simple FFT on AIE-ML using the DSP Library</a></td>
-    <td align="center">2025.1 2025.2</td>
+    <td align="center">2025.2</td>
  </tr>
  </table>
 
  
-<p class="sphinxhide" align="center"><sub>Copyright © 2025 Florent Werbrouck</sub></p>
+<p class="sphinxhide" align="center"><sub>Copyright © 2026 Florent Werbrouck</sub></p>
