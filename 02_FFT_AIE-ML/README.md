@@ -7,6 +7,9 @@ You can use this project to replicate the steps from the following articles:<br 
 <a href="https://www.hackster.io/florent-werbrouck/15-generating-input-txt-files-stimuli-for-aie-ml-from-python-358b9a">15 Generating input txt files stimuli for AIE-ML from Python</a><br />
 <a href="https://www.hackster.io/florent-werbrouck/16-simulate-ai-engine-graphs-from-python-fb171f">16 Simulate AI Engine graphs from Python</a><br />
 <a href="https://www.hackster.io/florent-werbrouck/17-simulate-ai-engine-graphs-from-matlab-bcb16c">17 Simulate AI Engine graphs from MATLAB</a><br />
+<a href="https://www.hackster.io/florent-werbrouck/18-sharing-aie-ml-graph-model-for-python-simulation-8cd62c">18 Sharing AIE-ML graph model for Python simulation</a><br />
+<a href="https://www.hackster.io/florent-werbrouck/19-aie-ml-model-based-fft-design-using-vitis-model-composer-01af84">19 AIE-ML model based FFT design using Vitis Model Composer</a><br />
+
 
 Before running the command to rebuild the project you will need to clone the <a href="https://github.com/Xilinx/Vitis_Libraries">Vitis_Libraries repository</a> and set an environment variable DSPLIB_ROOT pointing to Vitis_Libraries/dsp
 
@@ -37,4 +40,10 @@ matlab -nojvm -r "fft1024_dsplib_vfs"
 ```
 Note that you will need to have the Vitis environment set to run the VFS simulation.
 
-<p class="sphinxhide" align="center"><sub>Copyright © 2025 Florent Werbrouck</sub></p>
+## Vitis Model Composer (VMC)
+The AIE-ML graph can be built, generated and simulated in a Model Based environment call Vitis Model Composer (VMC) as described in the tutorials 19.
+
+To open the project in VMC (in MATLAB Simulink environmnent) open the following file:
+fft_DSPLib.slx 
+
+<p class="sphinxhide" align="center"><sub>Copyright © 2025 - 2026 Florent Werbrouck</sub></p>

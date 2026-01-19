@@ -20,4 +20,4 @@ The following table list the different designs/tutorials and the tool versions t
  </table>
 
  
-<p class="sphinxhide" align="center"><sub>Copyright © 2026 Florent Werbrouck</sub></p>
+<p class="sphinxhide" align="center"><sub>Copyright © 2025 - 2026 Florent Werbrouck</sub></p>
